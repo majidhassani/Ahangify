@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F700259F646FF4A1F486AD /* Pods_AhangifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D6229841FE0AD212808CCE /* Pods_AhangifyTests.framework */; };
 		A4599C8A23F81ED100C88282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4599C8923F81ED100C88282 /* AppDelegate.swift */; };
 		A4599C8C23F81ED100C88282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4599C8B23F81ED100C88282 /* SceneDelegate.swift */; };
 		A4599C8E23F81ED100C88282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4599C8D23F81ED100C88282 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		A4599C9623F81ED200C88282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4599C9523F81ED200C88282 /* Assets.xcassets */; };
 		A4599C9923F81ED200C88282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4599C9723F81ED200C88282 /* LaunchScreen.storyboard */; };
 		A4599CA423F81ED200C88282 /* AhangifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4599CA323F81ED200C88282 /* AhangifyTests.swift */; };
+		BE0CEA467D8CB88291A9CF88 /* Pods_Ahangify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8655C8A9627CADB5BA509E /* Pods_Ahangify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D6229841FE0AD212808CCE /* Pods_AhangifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AhangifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6D1DBE02F1C467E7B2A772 /* Pods-AhangifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTests.debug.xcconfig"; path = "Target Support Files/Pods-AhangifyTests/Pods-AhangifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F17FE038564AF1FB066AFF5 /* Pods-Ahangify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ahangify.debug.xcconfig"; path = "Target Support Files/Pods-Ahangify/Pods-Ahangify.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8655C8A9627CADB5BA509E /* Pods_Ahangify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ahangify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7803C0CDE4EB1B4C65366F /* Pods-Ahangify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ahangify.release.xcconfig"; path = "Target Support Files/Pods-Ahangify/Pods-Ahangify.release.xcconfig"; sourceTree = "<group>"; };
+		8FFAB917A30AFD7910B11498 /* Pods-AhangifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhangifyTests.release.xcconfig"; path = "Target Support Files/Pods-AhangifyTests/Pods-AhangifyTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4599C8623F81ED100C88282 /* Ahangify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ahangify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4599C8923F81ED100C88282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4599C8B23F81ED100C88282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0CEA467D8CB88291A9CF88 /* Pods_Ahangify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F700259F646FF4A1F486AD /* Pods_AhangifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BFA8DEE41AF163C1D1B5978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8655C8A9627CADB5BA509E /* Pods_Ahangify.framework */,
+				01D6229841FE0AD212808CCE /* Pods_AhangifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4599C7D23F81ED100C88282 = {
 			isa = PBXGroup;
 			children = (
 				A4599C8823F81ED100C88282 /* Ahangify */,
 				A4599CA223F81ED200C88282 /* AhangifyTests */,
 				A4599C8723F81ED100C88282 /* Products */,
+				F9657C21062DFF47C5283E40 /* Pods */,
+				8BFA8DEE41AF163C1D1B5978 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +102,9 @@
 		A4599C8823F81ED100C88282 /* Ahangify */ = {
 			isa = PBXGroup;
 			children = (
+				A4599CB023F81F5200C88282 /* ViewModel */,
+				A4599CAF23F81F4900C88282 /* Model */,
+				A4599CAE23F81F3E00C88282 /* API */,
 				A4599C8923F81ED100C88282 /* AppDelegate.swift */,
 				A4599C8B23F81ED100C88282 /* SceneDelegate.swift */,
 				A4599C8D23F81ED100C88282 /* ViewController.swift */,
@@ -102,6 +126,39 @@
 			path = AhangifyTests;
 			sourceTree = "<group>";
 		};
+		A4599CAE23F81F3E00C88282 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A4599CAF23F81F4900C88282 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4599CB023F81F5200C88282 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9657C21062DFF47C5283E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F17FE038564AF1FB066AFF5 /* Pods-Ahangify.debug.xcconfig */,
+				7A7803C0CDE4EB1B4C65366F /* Pods-Ahangify.release.xcconfig */,
+				0D6D1DBE02F1C467E7B2A772 /* Pods-AhangifyTests.debug.xcconfig */,
+				8FFAB917A30AFD7910B11498 /* Pods-AhangifyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4599CA823F81ED200C88282 /* Build configuration list for PBXNativeTarget "Ahangify" */;
 			buildPhases = (
+				41200B751E3BEB2D007C2966 /* [CP] Check Pods Manifest.lock */,
 				A4599C8223F81ED100C88282 /* Sources */,
 				A4599C8323F81ED100C88282 /* Frameworks */,
 				A4599C8423F81ED100C88282 /* Resources */,
+				C5810F97DE02AD706B9B7AE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4599CAB23F81ED200C88282 /* Build configuration list for PBXNativeTarget "AhangifyTests" */;
 			buildPhases = (
+				1EA8868C53098F672604E46B /* [CP] Check Pods Manifest.lock */,
 				A4599C9B23F81ED200C88282 /* Sources */,
 				A4599C9C23F81ED200C88282 /* Frameworks */,
 				A4599C9D23F81ED200C88282 /* Resources */,
@@ -197,6 +257,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA8868C53098F672604E46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AhangifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41200B751E3BEB2D007C2966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ahangify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5810F97DE02AD706B9B7AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ahangify/Pods-Ahangify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ahangify/Pods-Ahangify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ahangify/Pods-Ahangify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4599C8223F81ED100C88282 /* Sources */ = {
@@ -298,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -364,6 +488,7 @@
 		};
 		A4599CA923F81ED200C88282 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F17FE038564AF1FB066AFF5 /* Pods-Ahangify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +507,7 @@
 		};
 		A4599CAA23F81ED200C88282 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7803C0CDE4EB1B4C65366F /* Pods-Ahangify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +526,7 @@
 		};
 		A4599CAC23F81ED200C88282 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6D1DBE02F1C467E7B2A772 /* Pods-AhangifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +549,7 @@
 		};
 		A4599CAD23F81ED200C88282 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFAB917A30AFD7910B11498 /* Pods-AhangifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
